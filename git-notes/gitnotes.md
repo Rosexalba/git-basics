@@ -11,18 +11,21 @@
    // after that 'git push' will do for future commits 
 
 
-# Work flow -- git add -A -- git status -- git commit -m 'leave a note on what youre committing' --git push--
-# Commit often -- push when ready 
+# Work flow 
+ 1.git add -A 
+ 2.git status 
+ 3.git commit -m 'leave a note on what youre committing'  4.git push
+--Commit often -- push when ready 
 
-# WORKING WITH OTHERS [git branching]
+# Working with others [git branching]
 
-- git checkout -b Rose
+1.git checkout -b Rose
 // switched to a new branch 'Rose' [notmain]
 commits will now stay on this branch 'Rose'
 
--git checkout main // will take you back to the main branch 
+2.git checkout main // will take you back to the main branch 
 
 // you can go back and forth and branches remain seperate at this point
 
--git merge Rose // you are now merging your main branch with your individual branch 'Rose'
+3.git merge Rose // you are now merging your main branch with your individual branch 'Rose'
 both files will now show up under main folder. <3
